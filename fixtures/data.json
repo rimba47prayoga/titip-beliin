@@ -1,0 +1,50 @@
+[
+{
+    "model": "scrap.scrapmodels",
+    "pk": 2,
+    "fields": {
+        "url": "https://www.ebay.com/itm/294170428836",
+        "response": "{\"title\": \"Xbox Wireless Controller Electric Volt - Wireless And Bluetooth Connectivity\", \"price\": \"US $55.99\", \"stock\": \"Available\", \"images\": [\"https://i.ebayimg.com/images/g/R7UAAOSwp0dg6SoB/s-l64.jpg\", \"https://i.ebayimg.com/images/g/TjsAAOSwAW9gyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/0vYAAOSwWZtgyDSn/s-l64.jpg\", \"https://i.ebayimg.com/images/g/4jIAAOSwrsBgyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/5UAAAOSw5clgyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/jJkAAOSwc1FgyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/roYAAOSwDyBgyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/b6IAAOSwEZRgyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/tqEAAOSwoD5gyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/Mj4AAOSwdqxgyDSm/s-l64.jpg\", \"https://i.ebayimg.com/images/g/QgsAAOSwbntgyDSm/s-l64.jpg\"]}"
+    }
+},
+{
+    "model": "scrap.scrapmodels",
+    "pk": 4,
+    "fields": {
+        "url": "https://www.ebay.com/itm/313483072603",
+        "response": "{\"title\": \"Baseus Magnetic Car Wireless Fast Charger Mount Holder For IPhone 12 Pro Max\", \"price\": \"US $32.54\", \"stock\": \"Available\", \"images\": [\"https://i.ebayimg.com/images/g/i2UAAOSwP8Rgh79l/s-l64.png\", \"https://i.ebayimg.com/images/g/OmYAAOSwKrhgh79m/s-l64.jpg\", \"https://i.ebayimg.com/images/g/qAQAAOSwFptgh79m/s-l64.jpg\", \"https://i.ebayimg.com/images/g/ag4AAOSwvB1gh79n/s-l64.jpg\", \"https://i.ebayimg.com/images/g/NWwAAOSwGSRgh79o/s-l64.jpg\", \"https://i.ebayimg.com/images/g/AwsAAOSwXOBgh79p/s-l64.jpg\", \"https://i.ebayimg.com/images/g/aPsAAOSwcLZgh79p/s-l64.jpg\", \"https://i.ebayimg.com/images/g/8HkAAOSw3K1gh79q/s-l64.jpg\", \"https://i.ebayimg.com/images/g/SbEAAOSw5WVgh79s/s-l64.jpg\", \"https://i.ebayimg.com/images/g/lWcAAOSwr0Rgh79s/s-l64.jpg\", \"https://i.ebayimg.com/images/g/6gsAAOSwIV1gh79t/s-l64.jpg\", \"https://i.ebayimg.com/images/g/3-kAAOSw8Epgh79t/s-l64.jpg\"]}"
+    }
+},
+{
+    "model": "scrap.scrapmodels",
+    "pk": 5,
+    "fields": {
+        "url": "https://www.ebay.com/itm/303924727947",
+        "response": "{\"title\": \"Sony WH1000XM4/B Premium Noise Cancelling Wireless Over-the-Ear Headphones BLK\", \"price\": \"US $189.99\", \"stock\": \"Available\", \"images\": [\"https://i.ebayimg.com/images/g/ZRwAAOSwqvFgR95U/s-l64.jpg\", \"https://i.ebayimg.com/images/g/27AAAOSw~jlgR95W/s-l64.jpg\", \"https://i.ebayimg.com/images/g/27IAAOSw~jlgR95Y/s-l64.jpg\"]}"
+    }
+},
+{
+    "model": "scrap.scrapmodels",
+    "pk": 6,
+    "fields": {
+        "url": "https://www.amazon.com/dp/B085K45C3S",
+        "response": "{\"title\": \"All-new Echo Dot (4th generation) International Version | Smart speaker with Alexa | Charcoal\", \"price\": \"$49.99\", \"stock\": \"Available\", \"images\": [\"https://m.media-amazon.com/images/I/41fYTXmURgL._AC_US40_.jpg\", \"https://m.media-amazon.com/images/I/51ydNSj0AiL._AC_US40_.jpg\", \"https://m.media-amazon.com/images/I/51kEJiB04FL._AC_US40_.jpg\", \"https://m.media-amazon.com/images/I/51H3XYM0hsL._AC_US40_.jpg\", \"https://m.media-amazon.com/images/I/51YVl+rdMxL._AC_US40_.jpg\"]}"
+    }
+},
+{
+    "model": "scrap.scrapmodels",
+    "pk": 7,
+    "fields": {
+        "url": "https://www.amazon.com/PlayStation-5-DualSense-Wireless-Controller/dp/B08H99BPJN/ref=pd_sbs_3/144-6452510-8483542",
+        "response": "{\"title\": \"PlayStation 5 DualSense Wireless Controller\", \"price\": \"$69.28\", \"stock\": \"Out of Stock\", \"images\": [\"https://m.media-amazon.com/images/I/41TZkoiMYOL._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/31fsO4E+bDS._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/31uEd5ymjkS._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/31SmbzhzlES._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/31cVy4-WUjS._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/31qRvzlI4xL._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/31F8PasXZ9L._SX38_SY50_CR,0,0,38,50_BG85,85,85_BR-120_PKdp-play-icon-overlay__.jpg\"]}"
+    }
+},
+{
+    "model": "scrap.scrapmodels",
+    "pk": 9,
+    "fields": {
+        "url": "https://www.amazon.com/Xbox-One-S/dp/B08GGDT47N/ref=pd_sbs_5/144-6452510-8483542",
+        "response": "{\"title\": \"Xbox One S\", \"price\": \"$565.00\", \"stock\": \"Available\", \"images\": [\"https://m.media-amazon.com/images/I/41gqKtSc51L._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/41xQ2p7ztkL._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/41Q3tEM0uxL._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/219o3uyledL._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/31omi8zfXNL._SX38_SY50_CR,0,0,38,50_.jpg\", \"https://m.media-amazon.com/images/I/51s7hW40f5L._SX38_SY50_CR,0,0,38,50_.jpg\"]}"
+    }
+}
+]
