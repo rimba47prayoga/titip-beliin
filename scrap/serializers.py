@@ -21,13 +21,7 @@ class ScrapperSerializer(serializers.Serializer):
         else:
             # https://www.ebay.com/itm/294170428836
             detail_name = 'itm'
-        try:
-            is_detail_product = parsed_url.path.split('/')[1] == detail_name
-        except IndexError:
-            valid = False
-        else:
-            valid = is_detail_product
-        return valid
+        return detail_name in parsed_url.path.split('/')
 
     def validate(self, attrs):
         # execute default validate first
