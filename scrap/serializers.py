@@ -11,6 +11,24 @@ class ScrapperSerializer(serializers.Serializer):
 
     url = serializers.URLField()
 
+    def _is_detail_url(self, url):
+        parsed_url = urlparse(url)
+        if parsed_url.netloc == 'www.amazon.com':
+            # https://www.amazon.com/dp/B085K45C3S
+            # After investigate, i found container element div with id="dp"
+            # I think dp is stand for `detail product`
+            detail_name = 'dp'
+        else:
+            # https://www.ebay.com/itm/294170428836
+            detail_name = 'itm'
+        try:
+            is_detail_product = parsed_url.path.split('/')[1] == detail_name
+        except IndexError:
+            valid = False
+        else:
+            valid = is_detail_product
+        return valid
+
     def validate(self, attrs):
         # execute default validate first
         attrs = super(ScrapperSerializer, self).validate(attrs)
@@ -20,6 +38,12 @@ class ScrapperSerializer(serializers.Serializer):
             raise serializers.ValidationError({
                 'url': 'only supported scrapping for amazon & ebay'
             })
+
+        if not self._is_detail_url(url):
+            raise serializers.ValidationError({
+                'url': f'{url} is not valid detail product.'
+            })
+
         return attrs
 
     def scrap(self):

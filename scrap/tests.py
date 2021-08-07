@@ -65,3 +65,24 @@ class ScrapperAPITestCases(APITestCase):
                 "only supported scrapping for amazon & ebay"
             ]
         })
+
+    def test_scrap_not_detail_product_url(self):
+        url = reverse('scrap')
+        scrap_urls = [
+            'https://www.ebay.com/',
+            'https://www.ebay.com/p/18045962259',
+            'https://www.ebay.com/b/Video-Game-Accessories/54968/bn_1642249',
+            'https://www.amazon.com/',
+            'https://www.amazon.com/s?k=oculus&i=electronics-intl-ship',
+            'https://www.amazon.com/s?k=gaming+headsets'
+        ]
+        for scrap_url in scrap_urls:
+            response = self.client.post(url, data={
+                'url': scrap_url
+            })
+            self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+            self.assertEqual(response.data, {
+                "url": [
+                    f"{scrap_url} is not valid detail product."
+                ]
+            })
